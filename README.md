@@ -11,7 +11,7 @@ what are dimensions? A dimension can be thought of as a space where we can mark 
 
  * 3-D!! This is where it starts to get a bit tricky. We need 3-D space to plot to ping and visualize 3 different continuous numerical data.This is still do-able but we cant infer much from looking at a 3-D graph at first glance.We might need to rotate it and study it to make any actual sense out of it.
 
- * 3D!!? This is no-no territory for Human Brain. Our brain is only hard wired to visualize/comprehend/interpret a 3-D space. But machines can work on many dimensions and they are good at it.This is how Machine Learning was born. Machine Learning Algorithms are good with working with multi-dimensional data and classifying them in those higher dimensions!!
+ * Above 3D!!? This is no-no territory for Human Brain. Our brain is only hard wired to visualize/comprehend/interpret a 3-D space. But machines can work on many dimensions and they are good at it.This is how Machine Learning was born. Machine Learning Algorithms are good with working with multi-dimensional data and classifying them in those higher dimensions!!
 
 CURSE OF DIMENSIONALITY With all that good math and computational power ML algorithms still struggle with too many dimensions. This is because when dealing with too many dimensions our data space becomes so sparse. i.e Even when the samples are similar , they are very far apart due to too many dimensions.If you check the plot of number_of dimensions against performance of the model you can see that it increases until a certain point after which it degrades this is because data organisation methods(ML algo's) struggle in very high dimensions. eg: KNN is susceptible to overfitting due to 'CURSE OF DIMENSIONALITY'
 
